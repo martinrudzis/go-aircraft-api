@@ -1,9 +1,9 @@
 # go-aircraft-api
 
 # Overview
-This project is an API for looking up aircraft data by icao24 hex code. All aircraft have a unique hex code identifier, allowing lookup of any individual aircraft through publicly available data, such as the regularly updated FAA aircraft registry.
+This project is an API for looking up aircraft data by icao24 hex code. All aircraft have a unique hex code identifier, allowing lookup of any individual aircraft through publicly available data, such as the regularly updated FAA aircraft registry. 
 
-Curious about aircraft flying overhead? Start up the API and look up the icao24 hex codes of nearby aircraft through a website like ADS-B Exchange or FlightRadar24. 
+Curious about aircraft flying overhead? Start up the API and look up the icao24 hex codes of nearby aircraft through a website like ADS-B Exchange or FlightRadar24. This API provides access to data about tens of thousands of US-registered aircraft.
 
 # Usage
 Add a hex code to the URL like this: localhost:8080/icao24/hex_code_here
