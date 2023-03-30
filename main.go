@@ -1,15 +1,12 @@
 package main
 
 import (
-	//"net/http"
 	"github.com/gin-gonic/gin"
-	"example/go-aircraft-api/data"
+	"example/go-aircraft-api/controller"
 )
 
 func main() {
-	// data.GetAircraftData("AA5B92")
-
 	router := gin.Default()
-	router.GET("/icao24/:hex", data.GetAicraftDataByIcoa24)
+	router.GET("/icao24/:hex", controller.GetAicraftDataByIcoa24)
 	router.Run("localhost:8080")
 }
